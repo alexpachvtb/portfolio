@@ -1,0 +1,14 @@
+@import 'libs/normalize';
+@import 'libs/fonts';
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
