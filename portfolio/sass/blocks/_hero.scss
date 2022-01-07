@@ -1,0 +1,38 @@
+.hero {
+    height: 820px;
+    background-color: #000;
+    &__container {
+        background-image: url('../assets/img/bg.jpg');
+        background-position: center -90px;
+        background-repeat: no-repeat;
+        padding: 160px 0 0 80px;
+    }
+    &__title {
+        margin: 0;
+        font-family: Merriweather;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120px;
+    }
+    &__descr {
+        width: 490px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    &__button {
+        margin-top: 25px;
+        width: 220px;
+        height: 55px;
+        background-color: $gold;
+        font-family: inherit;
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+        transition: 0.3s all;
+        cursor: pointer;
+        border: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

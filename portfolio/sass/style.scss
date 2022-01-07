@@ -14,11 +14,50 @@
     height: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: #000;
 }
 
 .gold {
     color: $gold;
 }
 
+.section {
+    &__title {
+        width: 700px;
+        height: 47px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        &-text {
+            margin: 0;
+            font-family: Merriweather;
+            font-weight: 700;
+            font-size: 40px;
+            color: $gold;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                width: 274px;
+                height: 2px;
+                background-color: $gold;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 0;
+                width: 274px;
+                height: 2px;
+                background-color: $gold;
+            }
+        }
+    }
+}
+
 @import 'blocks/header';
 @import 'blocks/hero';
+@import 'blocks/skills';
