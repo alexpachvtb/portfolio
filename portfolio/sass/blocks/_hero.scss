@@ -21,18 +21,5 @@
     }
     &__button {
         margin-top: 25px;
-        width: 220px;
-        height: 55px;
-        background-color: $gold;
-        font-family: inherit;
-        font-size: 20px;
-        text-align: center;
-        color: #000;
-        transition: 0.3s all;
-        cursor: pointer;
-        border: none;
-        &:hover {
-            color: #fff;
-        }
     }
 }
