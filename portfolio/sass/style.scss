@@ -1,14 +1,24 @@
 @import 'libs/normalize';
 @import 'libs/fonts';
+@import 'base/variables';
 
 * {
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color: #fff;
 }
 
 .container {
     max-width: 1440px;
+    height: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.gold {
+    color: $gold;
+}
+
+@import 'blocks/header';
+@import 'blocks/hero';

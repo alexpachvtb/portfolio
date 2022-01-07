@@ -1,0 +1,62 @@
+.header {
+    height: 90px;
+    background-color: #000;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 20px;
+        background: url('../../assets/img/bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0;
+    }
+    &__logo {
+        width: 50px;
+        height: 50px; 
+        cursor: pointer;
+        margin-right: auto;
+        path {
+            transition: 0.3s all;
+        }
+        &:hover {
+            path {
+                fill: $gold;
+            }
+        }
+    }
+    &__nav {
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        list-style-type: none;
+    }
+    &__link {
+        a {
+            font-weight: 400;
+            font-size: 20px;
+            text-decoration: none;
+            transition: 0.3s all;
+            &:hover {
+                color: $gold;
+            }
+        }
+    }
+    &__switcher {
+        display: flex;
+        width: 70px;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            font-weight: 700;
+            font-size: 20px;
+            text-decoration: none;
+            transition: 0.3s all;
+            &:hover {
+                color: $gold;
+            }
+        }
+    }
+}
