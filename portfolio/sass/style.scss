@@ -9,6 +9,10 @@
     color: #fff;
 }
 
+body {
+    background-color: #000;
+}
+
 .container {
     max-width: 1440px;
     height: 100%;
@@ -22,6 +26,9 @@
 }
 
 .section {
+    &__padding {
+        padding-top: 100px;
+    }
     &__title {
         width: 700px;
         height: 47px;
@@ -84,3 +91,4 @@
 @import 'blocks/header';
 @import 'blocks/hero';
 @import 'blocks/skills';
+@import 'blocks/portfolio';

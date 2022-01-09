@@ -1,0 +1,28 @@
+.portfolio {
+    min-height: 1500px;
+    &__title {
+        &::before {
+            width: 232px;
+        }
+        &::after {
+            width: 232px;
+        }
+    }
+    &__panel {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 85px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 60px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 25px;
+    }
+    &__photo {
+        width: 460px;
+        height: 550px;
+    }
+}
