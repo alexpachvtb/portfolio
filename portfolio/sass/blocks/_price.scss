@@ -1,0 +1,37 @@
+.price  {
+    min-height: 845px;
+    &__cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 90px;
+    }
+    &__card {
+        width: 450px;
+        height: 505px;
+        border: 3px solid $gold;
+        padding: 43px 115px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        &-title {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        &-price {
+            font-size: 24px;
+            font-weight: 700;
+            color: $gold;
+        }
+        &-descr {
+            text-align: center;
+            font-size: 18px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+    }
+}
