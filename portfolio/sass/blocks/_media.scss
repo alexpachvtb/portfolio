@@ -27,11 +27,125 @@
 }
 
 @media (max-width: 992px) {
+    .fz32 {
+        font-size: 32px;
+    }
+    .section__title {
+        width: 364px;
+        &-text {
+            &::before {
+                width: 110px;
+            }
+            &::after {
+                width: 110px;
+            }
+        }
+    }
+    .portfolio {
+        &__title {
+            &::before {
+                width: 80px;
+            }
+            &::after {
+                width: 80px;
+            }
+        }
+    }
     .price {
         &__cards {
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+    }
+    .video {
+        &__play-btn {
+            width: 75px;
+            height: 75px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .fz32 {
+        font-size: 32px;
+    }
+    .header {
+        &__container {
+            padding: 20px 60px;
+        }
+        &__nav {
+            display: none;
+        }
+    }
+    .hero {
+        height: 590px;
+        &__container {
+            padding-top: 80px;
+        }
+        &__descr {
+            line-height: 24px;
+        }
+        &__button {
+            margin-top: 60px;
+        }
+    }
+    .skills {
+        &__wrapper {
+            row-gap: 70px;
+        }
+        &__item {
+            height: 200px;
+            &-title {
+                margin-top: 0;
+            }
+            &-descr {
+                line-height: 24px;
+            }
+        }
+    }
+    .portfolio {
+        &__panel {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+    }
+    .video {
+        &__container {
+            padding: 0;
+        }
+    }
+    .contacts {
+        height: 600px;
+        &__container {
+            padding-bottom: 111px;
+        }
+        &__wrapper {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    .footer {
+        &__container {
+            flex-direction: column;
+            padding: 20px 0;
+        }
+        &__social {
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .hero {
+        &__descr {
+            width: 300px;
+        }
+    }
+    .skills {
+        &__wrapper {
+            display: flex;
         }
     }
 }

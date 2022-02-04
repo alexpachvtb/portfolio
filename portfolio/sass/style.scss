@@ -34,13 +34,15 @@ body {
         height: 47px;
         margin: 0 auto;
         position: relative;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         &-text {
             margin: 0;
             font-family: Merriweather;
             font-weight: 700;
-            font-size: 40px;
             color: $gold;
+            font-size: 40px;
             &::before {
                 content: '';
                 position: absolute;
