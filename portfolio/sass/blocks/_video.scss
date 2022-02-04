@@ -1,9 +1,11 @@
 .video {
-    min-height: 945px;
     &__player {
         position: relative;
         width: 100%;
         margin-top: 90px;
+    }
+    &__screen {
+        width: 100%;
     }
     &__play-btn {
         position: absolute;

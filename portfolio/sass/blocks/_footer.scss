@@ -1,0 +1,42 @@
+.footer {
+    height: 150px;
+    font-size: 20px;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__github {
+        width: 188px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            transition: 0.3s;
+            &:hover {
+                color: $gold;
+            }
+        }
+    }
+    &__social {
+        width: 188px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        &-item {
+            list-style-type: none;
+        }
+        a.footer__link {
+            path {
+                transition: 0.3s all;
+            }
+            &:hover {
+                path {
+                    fill: $gold;
+                }
+            }
+        }
+    }
+}
