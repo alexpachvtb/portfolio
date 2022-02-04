@@ -198,7 +198,20 @@
                     </div>
                 </div>
             </div>
-            <div class="contacts" id="contacts"></div>
+            <div class="contacts" id="contacts">
+                <div class="container contacts__container">
+                    <div class="contacts__wrapper">
+                        <h3 class="contacts__title">Contact me</h3>
+                        <form class="contacts__form" action="#">
+                            <input class="contacts__input" required type="email" name="email" id="email" placeholder="Email">
+                            <input class="contacts__input" required type="tel" name="phone" id="phone" placeholder="Phone">
+                            <!-- <input class="contacts__input contacts__input_message" type="text" name="descr" id="descr" placeholder="Message"> -->
+                            <textarea class="contacts__input contacts__input_message" name="descr" id="descr" placeholder="Message"></textarea>
+                            <input class="button button_gold price__button" type="submit" value="Send message">
+                        </form>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer class="footer">
         <div class="container">
