@@ -1,0 +1,25 @@
+.menu {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    background-color: #000;
+    z-index: 3;
+    transition: 0.5s all;
+    &__links {
+        padding-top: 134px;
+        padding-left: 127px;
+    }
+    &__link {
+        list-style-type: none;
+        font-size: 35px;
+        margin-top: 50px;
+        a {
+            text-decoration: none;
+        }
+    }
+    &_active {
+        right: 0;
+    }
+}
