@@ -50,6 +50,12 @@
                 width: 80px;
             }
         }
+        &__panel {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+        
     }
     .price {
         &__cards {
@@ -105,13 +111,6 @@
             &-descr {
                 line-height: 24px;
             }
-        }
-    }
-    .portfolio {
-        &__panel {
-            margin-top: 60px;
-            display: grid;
-            grid-template-columns: repeat(2, auto);
         }
     }
     .video {

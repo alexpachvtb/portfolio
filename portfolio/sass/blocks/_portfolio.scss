@@ -1,13 +1,5 @@
 .portfolio {
     min-height: 1500px;
-    &__title {
-        &::before {
-            width: 232px;
-        }
-        &::after {
-            width: 232px;
-        }
-    }
     &__panel {
         display: flex;
         justify-content: center;
